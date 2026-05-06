@@ -191,7 +191,7 @@ To include only requests on specific hosts, you can pass an array of patterns sp
 ```js
 cy.recordHar({ includeHosts: [/.*\.execute-api\.eu-west-1\.amazonaws\.com/] });
 ```
-
+Test File Update
 To exclude some requests, you can pass an array of patterns specifying a list of paths using the `excludePaths` to be excluded from the logs:
 
 ```js
